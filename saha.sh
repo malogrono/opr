@@ -5,5 +5,5 @@ SECONDS=0
 while true; do
     clear
     printf '%02d:%02d:%02d\n' $((SECONDS/3600)) $(((SECONDS/60)%60)) $((SECONDS%60))
-    sleep 99999
+    sleep 1
 done
